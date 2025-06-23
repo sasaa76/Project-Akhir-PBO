@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ResepMasakanApp</class>
+ <widget class="QWidget" name="ResepMasakanApp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>📖 Resep Masakan - ResepKu</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="labelKategori">
+     <property name="text">
+      <string>📚 Pilih Kategori</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="kategori_filter"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelCari">
+     <property name="text">
+      <string>🔎 Cari Resep</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="input_cari">
+     <property name="placeholderText">
+      <string>Cari resep...</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="list_resep"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelDetail">
+     <property name="text">
+      <string>📋 Detail Resep</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="detail_resep">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_tambah">
+     <property name="text">
+      <string>➕ Tambah Resep</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
